@@ -40,24 +40,25 @@ h1 {
 .logo{
  position:absolute;
   left:5%;
-  width:200px;
+  width:180px;
 }
 .social-icons {
+  margin-top: 5px;
   grid-column: -2 / -3;
   grid-row: 1 / 2;
   display:grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto 40px 30px;
 }
 
 .facebook {
-  grid-column: 1 / 2;
-  width: 30px;
-  margin: 0 auto;
+  grid-column: 2 / 3;
+  width: 28px;
+  margin: 0 10px 0 auto;
 }
 
 .twitter {
-  grid-column: 2 / 3;
-  width: 30px;
+  grid-column: 3 / 4;
+  width: 28px;
 }
 
 .header {
@@ -71,7 +72,7 @@ h1 {
 }
 
 .content {
-  grid-column: 1 / -1;
+  grid-column: 2 / -2;
   grid-row: 3 / 4;
 
 }
@@ -140,7 +141,7 @@ li {
 }
 
 .slide-img {
-  margin: 3px;
+  margin: 30px 3px 0 3px;
   width: calc(100% - 6px);
 }
 
