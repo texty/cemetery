@@ -57,7 +57,7 @@ h1 {
   margin-left: 15%; }
 
 .content {
-  grid-column: 2 / -2;
+  grid-column: 1 / -1;
   grid-row: 3 / 4; }
 
 .text {
@@ -67,8 +67,8 @@ h1 {
   line-height: 2.5rem; }
   @media (max-width: 2570px), (max-width: 1440px), (max-width: 1285px), (max-width: 1024px) {
     .text {
-      width: 50%;
-      margin-left: 25%; } }
+      width: 40%;
+      margin-left: 30%; } }
   @media (max-width: 767px) {
     .text {
       width: 80%;
