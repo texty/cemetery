@@ -145,7 +145,7 @@ li {
 
 .small-pics {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .slide-img {
@@ -171,6 +171,10 @@ li {
 
 .small-5 {
   grid-column: 5 / 6;
+}
+
+.small-6 {
+  grid-column: 6 / 7;
 }
 
 //read more
